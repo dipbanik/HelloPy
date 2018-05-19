@@ -1,0 +1,12 @@
+import time
+
+
+def return_time(arg=None):
+    if arg is None:
+        arg = time.ctime()
+    print(arg)
+
+
+return_time()
+time.sleep(4)
+return_time()
