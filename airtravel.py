@@ -131,7 +131,7 @@ class Aircraft:
 def make_flight():
     f = Flight('BA758', Aircraft('G-EUPT', 'Airbus A319', num_rows=22, num_seats_per_row=6))
     f.allocate_seat('12A', 'Dipangshu banik')
-    f.allocate_seat('15F', 'Roina banik')
+    f.allocate_seat('15F', 'Ramlaal banik')
     f.allocate_seat('1A', 'Dipanjan banik')
     f.allocate_seat('12B', 'Dipak Banik')
     f.allocate_seat('12C', 'Arpita banik')
